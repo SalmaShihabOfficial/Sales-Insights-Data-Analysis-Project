@@ -1,6 +1,6 @@
 # Sales-Insights-Data-Analysis-Project
 
-Data Analysis Using SQL
+# Data Analysis Using SQL
 Show all customer records
 
 SELECT * FROM customers;
@@ -36,4 +36,7 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON trans
 Show total revenue in year 2020 in Chennai
 
 SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001";
+
+
+<img width="613" alt="salesInsight" src="https://github.com/SalmaShihabOfficial/Sales-Insights-Data-Analysis-Project/assets/115235631/dcedc547-8dc5-4d08-9901-9052a6259bcf">
 
